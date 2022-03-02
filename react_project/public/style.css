@@ -1,0 +1,42 @@
+html, body, #root {
+    height: 100%;
+    /* font-size: 20px; */
+  }
+
+#root {
+    display: flex;
+    flex-direction: column;
+  }
+
+.hide {
+display: none;
+}
+
+.active {
+    color: red;
+}
+.main {
+    flex: 1 0 auto;
+}
+
+.text {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.button-list{
+    list-style-type: none;
+}
+
+/* footer {
+    position:fixed; 
+    bottom:0;
+    display: block;
+    min-width: 100%;
+} */
+.btm-nav{
+    color: rgba(255,255,255,.55);
+    margin: 0;
+}

@@ -1,0 +1,4 @@
+{
+    "frontUrl" : "http://localhost:3000/note",
+    "backUrl" : "http://localhost:3500"
+}
